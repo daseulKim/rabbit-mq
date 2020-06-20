@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: usage_message
+  rabbitmq:
+    listener:
+      simple:
+        prefetch: 30
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 5000

@@ -1,3 +1,7 @@
+### Publish/Subscribe
+Sending messages to many consumers at once
+
+---
 The fanout pattern to deliver a message to multiple consumers.
  * Essentially, published messages are going to be broadcast to all the receivers.
  * https://www.rabbitmq.com/tutorials/tutorial-three-spring-amqp.html

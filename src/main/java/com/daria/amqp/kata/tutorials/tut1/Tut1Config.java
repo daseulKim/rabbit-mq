@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 
+/**
+ * https://www.rabbitmq.com/tutorials/tutorial-one-spring-amqp.html
+ */
 @Profile({"tutl1", "hello-world"})
 @Configuration
 public class Tut1Config {

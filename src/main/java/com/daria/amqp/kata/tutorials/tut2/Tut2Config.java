@@ -6,6 +6,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 
+/**
+ * A work queue with two consumers.
+ * https://www.rabbitmq.com/tutorials/tutorial-two-spring-amqp.html
+ */
 @Profile({"tut2", "work-queues"})
 @Configuration
 public class Tut2Config {
